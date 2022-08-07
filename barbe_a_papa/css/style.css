@@ -1,0 +1,167 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0px;
+}
+/* menu start */
+.bg-color_mg-bot50_box-shadow {
+    background-color: #F5F0DA;
+    margin-bottom: 50px;
+    box-shadow: 0px 9px 9px -5px #6e6d6d;
+}
+ .bg-color_display-flex-jus-cont_al-it-w90_mrg-auto{
+    background-color: #F5F0DA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 90%;
+    margin: auto;
+}
+.h150{height: 150px;}
+.pos-relat{ position: relative;}
+.h30_brd1_bg-color_brd-rad5_w250 {height: 30px;
+    border: 1px;
+    background-color: white;
+    width: 250px;  
+    border-radius: 5px; 
+}
+.bg-none_brd-none_pos-absol-r0-t50{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bg-color_w100{
+    background-color: #F5F0DA;
+    width: 100%;
+}
+.ds_flex_jus-cont_al-it_w90_marg-auto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+a.menu_link{color: #000000;
+    text-decoration: none;
+}
+.menu_nav ul{padding: 0px;}
+.menu_nav ul li {
+    display: inline-block;
+   font-size: 32px;
+}
+.menu_link{margin-right: 40px;}
+ul li{list-style: none;}
+.moustache_logo{height: 50px;}
+
+
+.bg-img-no-repeat-cent-cov_h400_ds_flex_jus-cont_al-it {
+    background: no-repeat center/cover url("../image/2022/bandeau.jpg");
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-color_p15_bx-shad_text-deco_none_color {
+    background-color: #2C6071;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    box-shadow: 0px 10px 13px -7px #000000, -6px 5px 4px 2px #000000;
+}
+/* menu end */
+/* section_presentation start */
+.w90-mg-auto {
+    width: 90%;
+    margin: auto;
+}
+
+.ds-flex_flex-dir {
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+}
+.ds-flex_flex-dir:after {
+    content: "";
+    border-bottom: 2px solid #000;
+    margin-bottom: 9px;
+    width: 325px;
+}
+.text-al {
+    font-size: 24px;
+    text-align: center;
+}
+/* section_presentation end */
+/* section_nos_services start*/
+.all_card {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.order-1{
+    order: 2;
+}
+.order-2{
+    order: 3;
+}
+.order-3{
+    order: 1;
+}
+.card {
+    border: solid 5px #b7912c;
+    width: 32%;
+    font-size: 25px;
+    height: 450px;
+    
+}
+.img_w90_height295 {
+    width: 100%;
+    height: 295px;
+}
+.text-card{
+    width: 90%;
+    margin: auto;
+}
+.bg-color_pos-absolute-right20-top40_pad5-15_brd-none_text-deco-no{
+    background-color: #2C6071;
+    border: none;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 9px 16px 2px rgba(0,0,0,0.06);
+    padding: 5px 15px;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+/* section_nos_services end*/
+/* footer start*/
+footer {
+    margin-top: 100px;
+    background-color: #F5F0DA;
+    font-size: 25px;
+    width: 100%;
+}
+.logo_footer {
+    height: 150px;
+}
+.bg-color_display-flex-jus-cont_al-it-w90_mrg-auto{
+    background-color: #F5F0DA;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 90%;
+    margin: auto;
+}
+.bg-color_display-flex-jus-cont_al-it-w90_mrg-auto a{color:#000000;
+text-decoration: none;}
+.icon-in-block{
+    display: inline-block;
+}
+.bg-color_color_text-align{
+    background-color: #2C6071;
+    color: #F5F0DA;
+    text-align: center;
+}
+/* footer end */

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class=" nav-desktop container-fluid g-0  p-0 bg-blue">
+            <div class="navbar d-flex justify-content-between bg-blue ">
+                <a class="navbar-brand" href="#">
+                    <img class="logo img-fluid" src="./img/wolf2.png" alt="logo">
+                </a>
+                <h1 class="size-title family-font-title">MENTAL WEREWOLVES</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border: solid">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#illustration">Nos Réalisations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#contact">Contact</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class=" nav-mobile container-fluid g-0 bg-blue p-0">
+            <nav class="navbar navbar-light w-90 d-flex justify-content-between">
+                <a class="navbar-logo" href="#">
+                    <img class="logo img-fluid" src="./img/wolf2.png" alt="logo">
+                </a>
+                <h1 class="size-title family-font-title">MENTAL WEREWOLVES</h1>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    MENU
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
+                    <li><a class="text-decoration-none text-dark" href="#">Accueil</a></li>
+                    <li><a class="text-decoration-none text-dark" href="#presentation"> Présentation</a></li>
+                    <li><a class="text-decoration-none text-dark" href="#illustration"> Illustration</a></li>
+                    <li><a class="text-decoration-none text-dark" href="#contact"> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="presentation">
+            <div class="PRESENTATION bg-grey">
+                <div class="card-body justify-content-between bg-grey">
+                    <h2 class="text-center text-blue pt-5 size-text family-font-title">Bienvenue chez Mentale Werewolves</h2>
+                        <div class="col d-flex justify-content-center">
+                            <img src="./img/developpeur-web.png" height="350px" width="350" alt="">
+                        </div>
+                    <p class="card-text text-white text-center text-center family-font-title fs-4 pb-5 px-5 w-90">Mentale Werewolves est une agence digital qui conçoit et développe
+                         des expériences digitales au service de la performance économique de ses clients et de leurs projets. Pour y parvenir, nous mettons à disposition de 
+                         nos clients notre expertises. Ainsi notre savoir-faire technologique sur les bases développement et du design de site web et application web sont mises en oeuvres
+                         sur les principales solutions leaders du marché.
+                    </p>
+                </div>
+                <h2 class="text-center text-blue pt-5 size-text family-font-title">L'EQUIPE</h2>
+                <div class="container g-0">
+                    <div class="row mt-5">
+                        <div class="col">
+                            <div class="card mb-3 border-0 bg-transparent">
+                                <div class="row g-0">
+                                    <div class="col-md-4 text-center">
+                                        <img class="rounded-circle" src="./img/profile-pic-b_w.png" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+
+                                            <ul class="effect">
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect ">
+                                                        <h3 class="card-title text-white family-font-title pt-2">S</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">A</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">L</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">I</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">M</h3>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                            <p class="text-white family-font-text"> Autonome, organisée et sociable, j'ai acquis des compétences qui au
+                                                 cours de mes différentes expériences m'ont permis de m'adapter aux situations de travail exigé.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3 border-0 bg-transparent">
+                                <div class="row g-0">
+                                    <div class="col-md-4 text-center">
+                                        <img class="rounded-circle" src="./img/PHOTO-JO.jfif" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+
+                                            <ul class="effect">
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">J</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">O</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">N</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">A</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">T</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">H</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">A</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">N</h3>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                            <p class="text-white family-font-text"> Développeur Web full-stack passionné
+                                                par mon travail je pratique plusieur Langage informatique et me tiens a
+                                                niveau sur ces derniers tout en apprenant des nouveaux,
+                                                je suis investit du bébut à la fin sur les projet, je m'occupe aussi
+                                                bien de la partie front que la partie back et assure la maintenance.
+                                                Dynamique, créatif, minuctieux, sont 3 qualitées qui peuvent me décrire,
+                                                je suis très à l'écoute du client de manière a retrenscrire ces idées et
+                                                ces besoins
+                                                de la meilleur façon possible et conseiller sur les meilleurs choix a
+                                                faire pour sont projet.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3 border-0 bg-transparent">
+                                <div class="row g-0">
+                                    <div class="col-md-4 text-center">
+                                        <img class="rounded-circle" src="./img/Mr.Mohamed.jpg" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="effect">
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">M</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">O</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">H</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">A</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">M</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">E</h3>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <input class="effect-lettre" type="checkbox" />
+                                                    <div class="text-effect">
+                                                        <h3 class="card-title text-white family-font-title pt-2">D</h3>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <p class="text-white family-font-text"> J'ai toujours était passionné par le domaine de l'informatique et des
+                                                nouvelles technologies.
+                                                après plusieurs années dans divers métiers qui ne me correspondaient pas forcément
+                                                j'ai décidé de me reconvertir dans un secteur plus propice a mon épanouissement personnel et
+                                                professionnel.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-center  p-0 g-0">
+                            <img class="img-pc w-100" src="./img/ecran_code.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="illustration">
+            <div class="container-fluid g-0 bg-blue pb-5">
+                <div class="w-90">
+                    <h2 class="size-text text-center pt-5 mb-5 family-font-title">ILLUSTRATION</h2>
+                    <div class="container-fluid g-0">
+                        <div class="slider">
+                            <a href="./UmaiFood/index.html" target="_blank">
+                                <img class="active slide-img" src="./img/umaiFood.PNG" alt="">
+                            </a>
+                            <a href="./barbe_a_papa/index.html" target="_blank">
+                                <img class="slide-img" src="./img/barberShop.PNG" alt="">
+                            </a>
+                            <a href="" target="_blank">
+                                <img class="slide-img" src="./img/frenchCookies.PNG" alt="">
+                            </a>
+                        </div>
+                        <div class="cont-btn">
+                            <button class="btn-nav left bg-transparent border-0">
+                                <i class="fa fa-arrow-circle-left" style="font-size:48px;"></i>
+                            </button>
+                            <button class="btn-nav right bg-transparent border-0">
+                                <i class="fa fa-arrow-circle-right" style="font-size:48px;"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact container-fluid g-0 bg-grey">
+                <div class="text-center">
+                    <h2 class="title-contact text-blue size-text pt-5 mb-5 family-font-title"> NOUS CONTACTER</h2>
+                </div>
+                <div class="form-map w-90 d-flex  pb-5">
+                    <div class="col-6 z-depth-1-half map-container" id="map-container-google-1">
+                        <iframe class="map w-100"
+                            src="https://maps.google.com/maps?q=1ssimplon+berre+l'etang&t=&z=13&ie=UTF8&iwloc=&output=embed" style="border:0" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <form class="row mx-2 g-3 text-blue ">
+                        <div class="col-md-6">
+                            <label for="validationDefault01" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="validationDefault01" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationDefault02" class="form-label">Prenom</label>
+                            <input type="text" class="form-control" id="validationDefault02" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationDefaultUsername" class="form-label">E-mail</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                <input type="text" class="form-control" id="validationDefaultUsername"
+                                    aria-describedby="inputGroupPrepend2" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationDefault03" class="form-label">Telephone</label>
+                            <input type="text" class="form-control" id="validationDefault03" required>
+                        </div>
+
+                        <div class=" col-md-12">
+                            <label for="validationDefault04" class="form-label ">Message</label>
+                            <input type="text" class="height-box-message form-control" id="validationDefault04"
+                                required>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                    Agree to terms and conditions
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class=" container-fluid bg-blue g-0">
+            <div class="w-90 d-flex justify-content-between">
+                <div class="logo-wolf">
+                    <a href="#">
+                        <img class="logo img-fluid" src="./img/wolf2.png" alt="logo">
+                    </a>
+                </div>
+                <div class="copyright d-flex align-items-center text-white family-font-text">
+                    <p>Copyright 2022 || Tous droit reserver</p>
+                </div>
+                <div class="rgpd d-flex align-items-center">
+                    <ul class="list-group list-unstyled text-white family-font-text">
+                        <li>Donnees personnelles et cookies</li>
+                        <li>Mentions legales</li>
+                        <li>Conditions generales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
